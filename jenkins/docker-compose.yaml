@@ -7,6 +7,7 @@ services:
     networks:
       jenkins:
         aliases: 
+          # alias is important certificate that is generated requires for dind container to use docker alias
           - docker
 
     image: docker:dind
@@ -19,7 +20,7 @@ services:
     networks:
       - jenkins
     build:
-      context: ./jenkins
+      context: .
     environment:
       JENKINS_ADMIN_ID: admin 
       JENKINS_ADMIN_PASSWORD: "@ART3M1S"
