@@ -1,4 +1,10 @@
-# ![Django DRF Example App](project-logo.png)
+# Django app with jenkins pipeline
+
+Jenkins configration can be found in ./jenkins
+
+Django app was forked from https://github.com/gothinkster/django-realworld-example-app
+
+## ![Django DRF Example App](project-logo.png)
 
 > ### Example Django DRF codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld-example-apps) API spec.
 
